@@ -6,7 +6,7 @@ if (!defined('WINSCODE_DEBUG')) define('WINSCODE_DEBUG', true);
  * Plugin Name:       Uber Direct for WooCommerce
  * Plugin URI:        https://idelivernear.me
  * Description:       Uber Direct is transforming the way goods move around cities by enabling anyone to have anything delivered on-demand.
- * Version:           2.3.3
+ * Version:           2.3.4
  * Requires at least: 5.5
  * Requires PHP:      7.4
  * Author:            iDelivernear.me
@@ -28,7 +28,7 @@ class Uber {
 	public static $notification_image;
 	public static $notification_text = 'You must be at least 21 years of age to purchase from our store. A valid ID or passport will be checked upon EACH AND EVERY delivery. If we are unable to complete your order because we cannot verify that you are of legal age, you will be charged a NON-REFUNDABLE 50% restocking fee and will not receive your order. Thank you for your cooperation. If you have any questions please do not hesitate to call us.';
 
-	const FEE = 3 * 100;
+	const FEE = 0;
 
 	public function __construct() {
 		$this->version = '2.1';
