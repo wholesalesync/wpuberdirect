@@ -1,0 +1,60 @@
+#uber_metabox label {
+	display: block;
+}
+.create-delivery label{
+	display: block;
+    margin: 10px 0;
+}
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr th, #woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta tr th {
+    width: 200px !important;
+    padding: 5px 0 !important;
+}
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr td, #woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta tr td {
+    width: 200px !important;
+    padding: 5px 0 !important;
+}
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta, #woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta {
+    table-layout: fixed;
+    width: 400px;
+}
+.working-hours {
+	display: inline-block;
+}
+.working-hours select {
+    width: 100px !important;
+}
+.datetime, .schedule-switcher {
+    margin-bottom: 10px;
+}
+.schedule-switcher {
+    display: flex;
+}
+.schedule-switcher div {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.schedule-switcher .active {
+    border: 3px solid #0077ae;
+    color: #0077ae;
+}
+.cancel-delivery {
+    background: #ba0000 !important;
+    border-color: #ba0000 !important;
+}
+a.uber-dashboard {
+    position: relative;
+    border-color: black !important;
+    color: black !important;
+}
+
+a.uber-dashboard img {
+    position: absolute;
+    width: 30px;
+    left: 0;
+}
+
+a.uber-dashboard span {
+    margin-left: 25px;
+}

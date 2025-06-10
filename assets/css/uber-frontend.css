@@ -1,0 +1,55 @@
+.white-popup {
+	position: relative;
+	background: #FFF;
+	padding: 20px;
+	width: auto;
+	max-width: 500px;
+	margin: 20px auto;
+	text-align: center;
+}
+.schedule-switcher {
+	display: flex;
+	flex-wrap: wrap;
+}
+.schedule-switcher div {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.schedule-time {
+	margin-top: 15px;
+}
+#ui-datepicker-div {
+	z-index: 99999 !important;
+    top: 50% !important;
+}
+
+.schedule-switcher button {
+    width: 100%;
+    max-width: 150px;
+    margin: 2px 2px 0 0;
+    border: none;
+    background: #7474ff;
+    color: white;
+    padding: 5px 10px;
+}
+.schedule-switcher .active {
+    background: #3b3b97;
+}
+
+.uber-alert {
+    color: red !important;
+    margin: 10px;
+}
+
+#id-verification-gif{
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.schedule-switcher button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
